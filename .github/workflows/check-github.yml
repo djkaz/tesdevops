@@ -16,4 +16,4 @@ jobs:
       - name: Run self check script
         run: |
           echo "Performing self check..."
-	  echo "Running checks for PR #${{ github.event.number }}"
+	  echo "Running checks for PR ${{ github.event.number }}"
